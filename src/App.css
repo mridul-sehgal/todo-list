@@ -1,0 +1,83 @@
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ width: 40vw;
+}
+
+.form-box{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.inputBox{
+  width: 70%;
+  border-radius: 10px;
+  background-color: #DAFFFB;
+  font-size: larger;
+  padding: 10px;
+  color: #001C30;
+}
+
+.submitButton{
+  padding: 10px 40px;
+  background-color: #176B87;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.submitButton:hover{
+  background-color: #64CCC5;
+  color: #001C30;
+}
+
+.todoList{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 40px 0 0 0 ;
+  background-color: #64CCC5 ;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #001C30;
+  font-weight: 700;
+}
+
+.todosBox{
+   width: 70%;
+   font-size: x-large;
+}
+
+.buttonsBox{
+display: flex;
+width: 30%;
+justify-content: space-around;
+}
+
+.deleteButton{
+  padding: 10px 20px;
+  background-color: #FF8282;
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.deleteButton:hover{
+  background-color: #FF3F33;
+  color: white;
+}
+
+.editButton{
+  padding: 10px 30px;
+  background-color: #176B87;
+  font-size: larger;
+  font-weight: 700;
+  color: #001C30;
+}
+
+.editButton:hover{
+  background-color: #006BFF;
+  color: white;
+}
